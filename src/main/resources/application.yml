@@ -1,0 +1,16 @@
+security:
+  basic:
+    enable: false
+
+spring:
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/labforward
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
